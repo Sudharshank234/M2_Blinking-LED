@@ -1,0 +1,125 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="Led" CircId="Led-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-848" rotation="0" hflip="1" vflip="1" label="Led-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="RelaySPST" CircId="RelaySPST-32" mainComp="false" Show_id="false" Show_Val="false" Pos="-956,-856" rotation="-90" hflip="1" vflip="1" label="RelaySPST-3" idLabPos="-16,8" labelrot="0" valLabPos="-16,6" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" Rcoil="100 Ω" Inductance="0.1 H" IOn="0.02 A" IOff="0.01 A" />
+
+<item itemtype="Led" CircId="Led-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-824" rotation="0" hflip="1" vflip="1" label="Led-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-752" rotation="0" hflip="1" vflip="1" label="Led-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-800" rotation="0" hflip="1" vflip="1" label="Led-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-704" rotation="0" hflip="1" vflip="1" label="Led-16" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-38" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-776" rotation="0" hflip="1" vflip="1" label="Led-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-728" rotation="0" hflip="1" vflip="1" label="Led-15" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="MCU" CircId="mega328-40" mainComp="false" Show_id="true" Show_Val="false" Pos="-880,-888" rotation="0" hflip="1" vflip="1" label="mega328-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../AppData/Local/Temp/arduino_build_951159/Running_LED.ino.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Led" CircId="Led-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-780,-872" rotation="0" hflip="1" vflip="1" label="Led-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-59" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-640" rotation="0" hflip="1" vflip="1" label="Ground-59" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-98" mainComp="false" Show_id="false" Show_Val="false" Pos="-956,-752" rotation="0" hflip="1" vflip="1" label="Ground-98" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="AudioOut" CircId="AudioOut-103" mainComp="false" Show_id="false" Show_Val="false" Pos="-1004,-796" rotation="-180" hflip="1" vflip="1" label="AudioOut-103" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" Buzzer="false" Impedance="inf Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-109" mainComp="false" Show_id="false" Show_Val="false" Pos="-988,-928" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-109" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Node" CircId="Node-53" mainComp="false" Pos="-832,-728" />
+
+<item itemtype="Node" CircId="Node-56" mainComp="false" Pos="-816,-728" />
+
+<item itemtype="Node" CircId="Node-62" mainComp="false" Pos="-708,-848" />
+
+<item itemtype="Node" CircId="Node-65" mainComp="false" Pos="-708,-820" />
+
+<item itemtype="Node" CircId="Node-68" mainComp="false" Pos="-708,-796" />
+
+<item itemtype="Node" CircId="Node-71" mainComp="false" Pos="-708,-772" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="-708,-752" />
+
+<item itemtype="Node" CircId="Node-77" mainComp="false" Pos="-708,-728" />
+
+<item itemtype="Node" CircId="Node-80" mainComp="false" Pos="-708,-704" />
+
+<item itemtype="Node" CircId="Node-82" mainComp="false" Pos="-708,-868" />
+
+<item itemtype="Node" CircId="Node-85" mainComp="false" Pos="-708,-872" />
+
+<item itemtype="Node" CircId="Node-106" mainComp="false" Pos="-956,-788" />
+
+<item itemtype="Connector" uid="connector-110" startpinid="mega328-40-PORTB5" endpinid="Led-34-lPin" pointList="-840,-808,-804,-808,-804,-824,-796,-824" />
+
+<item itemtype="Connector" uid="connector-111" startpinid="mega328-40-PORTB4" endpinid="Led-36-lPin" pointList="-840,-800,-796,-800" />
+
+<item itemtype="Connector" uid="connector-112" startpinid="mega328-40-PORTB3" endpinid="Led-38-lPin" pointList="-840,-792,-820,-792,-820,-776,-796,-776" />
+
+<item itemtype="Connector" uid="connector-113" startpinid="mega328-40-PORTB2" endpinid="Led-35-lPin" pointList="-840,-784,-824,-784,-824,-752,-796,-752" />
+
+<item itemtype="Connector" uid="connector-114" startpinid="mega328-40-PORTB6" endpinid="Node-53-0" pointList="-888,-816,-900,-816,-900,-728,-832,-728" />
+
+<item itemtype="Connector" uid="connector-115" startpinid="mega328-40-PORTB7" endpinid="Led-41-lPin" pointList="-888,-808,-920,-808,-920,-716,-808,-716,-808,-872,-796,-872" />
+
+<item itemtype="Connector" uid="connector-116" startpinid="mega328-40-PORTB0" endpinid="Led-37-lPin" pointList="-888,-776,-908,-776,-908,-704,-796,-704" />
+
+<item itemtype="Connector" uid="connector-117" startpinid="mega328-40-PORTB1" endpinid="Node-53-1" pointList="-840,-776,-832,-776,-832,-728" />
+
+<item itemtype="Connector" uid="connector-118" startpinid="Node-53-2" endpinid="Node-56-0" pointList="-832,-728,-816,-728" />
+
+<item itemtype="Connector" uid="connector-119" startpinid="Led-31-lPin" endpinid="Node-56-1" pointList="-796,-848,-816,-848,-816,-728" />
+
+<item itemtype="Connector" uid="connector-120" startpinid="Node-56-2" endpinid="Led-39-lPin" pointList="-816,-728,-796,-728" />
+
+<item itemtype="Connector" uid="connector-121" startpinid="Led-41-rPin" endpinid="Node-82-0" pointList="-764,-872,-708,-872,-708,-868" />
+
+<item itemtype="Connector" uid="connector-122" startpinid="Led-31-rPin" endpinid="Node-62-1" pointList="-764,-848,-708,-848" />
+
+<item itemtype="Connector" uid="connector-123" startpinid="Node-62-2" endpinid="Node-65-0" pointList="-708,-848,-708,-820" />
+
+<item itemtype="Connector" uid="connector-124" startpinid="Led-34-rPin" endpinid="Node-65-1" pointList="-764,-824,-708,-824,-708,-820" />
+
+<item itemtype="Connector" uid="connector-125" startpinid="Node-65-2" endpinid="Node-68-0" pointList="-708,-820,-708,-796" />
+
+<item itemtype="Connector" uid="connector-126" startpinid="Led-36-rPin" endpinid="Node-68-1" pointList="-764,-800,-708,-800,-708,-796" />
+
+<item itemtype="Connector" uid="connector-127" startpinid="Node-68-2" endpinid="Node-71-0" pointList="-708,-796,-708,-772" />
+
+<item itemtype="Connector" uid="connector-128" startpinid="Led-38-rPin" endpinid="Node-71-1" pointList="-764,-776,-708,-776,-708,-772" />
+
+<item itemtype="Connector" uid="connector-129" startpinid="Node-71-2" endpinid="Node-74-0" pointList="-708,-772,-708,-752" />
+
+<item itemtype="Connector" uid="connector-130" startpinid="Led-35-rPin" endpinid="Node-74-1" pointList="-764,-752,-708,-752" />
+
+<item itemtype="Connector" uid="connector-131" startpinid="Node-74-2" endpinid="Node-77-0" pointList="-708,-752,-708,-728" />
+
+<item itemtype="Connector" uid="connector-132" startpinid="Led-39-rPin" endpinid="Node-77-1" pointList="-764,-728,-708,-728" />
+
+<item itemtype="Connector" uid="connector-133" startpinid="Node-77-2" endpinid="Node-80-0" pointList="-708,-728,-708,-704" />
+
+<item itemtype="Connector" uid="connector-134" startpinid="Led-37-rPin" endpinid="Node-80-1" pointList="-764,-704,-708,-704" />
+
+<item itemtype="Connector" uid="connector-135" startpinid="Node-80-2" endpinid="Ground-59-Gnd" pointList="-708,-704,-708,-656" />
+
+<item itemtype="Connector" uid="connector-136" startpinid="Node-82-2" endpinid="Node-85-0" pointList="-708,-868,-708,-872" />
+
+<item itemtype="Connector" uid="connector-138" startpinid="Node-85-2" endpinid="Node-62-0" pointList="-708,-872,-708,-848" />
+
+<item itemtype="Connector" uid="connector-139" startpinid="mega328-40-PORTD1" endpinid="RelaySPST-32-rPin" pointList="-888,-864,-904,-864,-904,-892,-956,-892,-956,-872" />
+
+<item itemtype="Connector" uid="connector-140" startpinid="RelaySPST-32-lPin" endpinid="Node-106-0" pointList="-956,-840,-956,-788" />
+
+<item itemtype="Connector" uid="connector-141" startpinid="AudioOut-103-rPin" endpinid="RelaySPST-32-pinP2" pointList="-988,-796,-972,-796,-972,-840" />
+
+<item itemtype="Connector" uid="connector-142" startpinid="AudioOut-103-lPin" endpinid="Node-106-1" pointList="-988,-788,-956,-788" />
+
+<item itemtype="Connector" uid="connector-143" startpinid="Node-106-2" endpinid="Ground-98-Gnd" pointList="-956,-788,-956,-768" />
+
+<item itemtype="Connector" uid="connector-144" startpinid="Fixed Voltage-109-outnod" endpinid="RelaySPST-32-switch0pinN" pointList="-972,-928,-972,-872" />
+
+<item itemtype="Connector" uid="connector-137" startpinid="Node-82-1" endpinid="Node-85-1" pointList="-708,-868,-708,-872" />
+
+</circuit>
